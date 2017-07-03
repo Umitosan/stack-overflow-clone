@@ -4,6 +4,8 @@ class AddUsers < ActiveRecord::Migration[5.1]
       t.column :email, :string
       t.column :password_hash, :string
       t.column :password_salt, :string
+
+      t.timestamps
     end
   end
 end

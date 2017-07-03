@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+#
+
+# Question.destroy_all
+# Answer.destroy_all
+#
+#
+# 10.times do |i|
+#   someQuestion = Question.create!(name: Faker::Hacker.abbreviation
+#   )
+#   3.times do |j|
+#     someAnswer = someQuestion.answers.create!(author: Faker::RickAndMorty.character,
+#                                              body: Faker::Lorem.sentence(15),
+#                                              rating: (1 + rand(5))
+#   )
+#   end
+# end
+#
+# p "Created #{Product.count} products"
+# p "Created #{Review.count} reviews"

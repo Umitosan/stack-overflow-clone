@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-
+  # root :to => 'questions#index'
+  #
+  resources :questions do
+    resources :answers do
+    end
+  end
 
   # resources :users
   # resources :sessions
